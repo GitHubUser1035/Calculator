@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/jpg" href="download.jpg">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Serif+Tibetan:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 style="font-size: 72px; font-family: 'Times New Roman', Times, serif;">Calculator</h1>
+    <div id="container" style="background-color: gray;">
+
+        <div id="outputContainer"><p id="output">0</p> <img src="OIP.jpg" id="copyButton" style="height: 30px; width: 30px;" > <p id="message">Text has been copied!</p></div>
+        <div class="button" id="1">1</div>
+        <div class="button" id="2">2</div>
+        <div class="button" id="3">3</div>
+        <div class="button" id="4">4</div>
+        <div class="button" id="5">5</div>
+        <div class="button" id="6">6</div>
+        <div class="button" id="7">7</div>
+        <div class="button" id="8">8</div>
+        <div class="button" id="9">9</div>
+        <div class="button" id="0">0</div>
+        <div class="button" id=".">.</div>
+        <div class="button" id="+">+</div>
+        <div class="button" id="-">-</div>
+        <div class="button" id="*">*</div>
+        <div class="button" id="/">/</div>
+        <div class="button" id="=">=</div>
+        <div class="button" id="del">DEL</div>
+        <div class="button" id="clear">AC</div>
+
+    </div>
+    <p style="transform: translateY(50px);">note that copy feature may not work sometimes (i dont know why)</p>
+    <p style="transform: translateY(100px);">if you insert multiple operations, it will follow the order of operations. In order to avoid this, put two numbers you want to operate and equal it for it to be the factor of another operation. </p>
+    <script src="calculator.js"></script>
+
+</body>
+</html>
